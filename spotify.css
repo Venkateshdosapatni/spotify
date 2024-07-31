@@ -1,0 +1,223 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #36454F;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.main .mainleft{
+    width: 20%;  
+    margin-left: -1%; 
+    background-color: #1B1212; 
+}
+.main .mainleft .ml1{
+    margin-top: 2px;
+    padding: 4px 5px;
+    margin-top: 5px;
+    background-color: #1B1212;
+    border-radius: 10%;
+}
+.main .mainleft .ml2{
+    margin-top: 5px;
+    padding: 0px 5px;
+    border-radius: 5%;
+    background-color: #1B1212; 
+    border-radius: 10%; 
+}
+.main .mainleft .ml2 button{
+    border-radius: 40%;
+    padding: 5px 10px;
+}
+.main .mainleft .ml2 .ml21{
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 0px 10px;  
+    background-color: #1B1212;
+}
+.main .mainleft .ml2 .ml21 .content{
+    font-size: larger;
+    text-decoration: none;
+    background-color: #1B1212;
+}
+.main .mainleft .ml2 .ml21 .image img{
+    border-radius: 10%;
+    background-color: #1B1212;
+}
+.main .mainleft .ml2 .ml21 .image{
+    border-radius: 10%;
+    background-color: #1B1212;
+}
+
+.main .mainmiddle{
+    width: 45%;
+    background-color: #1B1212;
+    padding: 10px 10px;
+}
+.main .mainmiddle .mm1 button{
+    border-radius: 20%;
+    
+}
+.main .mainright{
+    padding: 0px 10px;
+    width: 30%;
+    background-color: #1B1212;
+ 
+}
+
+.main .mainmiddle .mm1 #mm11{
+    border-radius: 50%;
+    background-color: #1B1212;
+}
+.main .mainmiddle .mm1 #mm12{
+    border-radius: 50%;
+    padding-top: 2px;
+    background-color: black;
+}
+
+.main .mainmiddle .mm2 button{
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+
+.main .mainmiddle .mm3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1B1212;
+
+}
+
+
+.main .mainmiddle .mm3 .mm31 .ml21{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1B1212;
+
+}
+.main .mainmiddle .mm3 .mm31 .ml21{
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5px; 
+    background-color: #1B1212;
+}
+.main .mainmiddle .mm3 .mm31 .ml21 .content{
+    font-size: larger;
+    margin-left: 10px;
+    text-decoration: none;
+    background-color: #1B1212;
+}
+.main .mainmiddle .mm3 .mm31 .ml21 .image img{
+    border-radius: 10%;
+    background-color: #1B1212;
+}
+
+
+.main .mainmiddle .mm3 .mm32 .ml21{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px; 
+    background-color: #1B1212;
+}
+.main .mainmiddle .mm3 .mm32 .ml21{
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1B1212; 
+}
+.main .mainmiddle .mm3 .mm32 .ml21 .content{
+    font-size: larger;
+    text-decoration: none;
+    background-color: #1B1212;
+}
+.main .mainmiddle .mm3 .mm32 .ml21 .image img{
+    border-radius: 10%;
+    background-color: #1B1212;
+}
+
+.main .mainmiddle .mm5 .ml21{
+    display: inline-block;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10%;
+    background-color: #1B1212;
+}
+.main .mainright{
+    background-color: #1B1212;
+}
+.main .mainright h3{
+    background-color: #1B1212;
+}
+.main .mainmiddle .mm1{
+    background-color: #1B1212;
+}
+.main .mainmiddle .mm2{
+    background-color: #1B1212;
+}
+.main .mainmiddle .mm3 .mm31{
+    background-color: #1B1212;
+}
+.main .mainmiddle .mm3 .mm31 .ml21{
+    background-color: #1B1212;
+}
+.main .mainmiddle .mm3 .mm31 .ml21 .image{
+    background-color: #1B1212;
+}
+.main .mainmiddle .mm3 .mm32{
+    background-color: #1B1212;
+}
+.main .mainmiddle .mm3 .mm32 .ml21{
+    background-color: #1B1212;
+}
+.main .mainmiddle .mm3 .mm32 .ml21 .image{
+    background-color: #1B1212;
+}
+.main .mainmiddle .mm4 p{
+    background-color: #1B1212;
+}
+
+.main .mainmiddle .mm5{
+    background-color: #1B1212;
+}
+.main .mainmiddle .mm4 p b{
+    background-color: #1B1212;
+}
+.main .mainmiddle .mm5 .ml21 .image{
+    border-radius: 10%;
+    background-color: #1B1212;
+}
+
+.main p{
+    background-color: #1B1212;
+}
+.main h6{
+    background-color: #1B1212;
+}
+.main i{
+    color: #fff;
+    background-color: #1B1212;
+}
+.main .mainright img{
+    border-radius: 10px;
+    margin-left: 30px;
+    background-color: #1B1212;
+}
